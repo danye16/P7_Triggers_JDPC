@@ -17,10 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Triggers\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="Vistas\Categoria.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>

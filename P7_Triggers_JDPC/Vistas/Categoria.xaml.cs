@@ -1,4 +1,5 @@
-﻿using System;
+﻿using P7_Triggers_JDPC.VistaModelo;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -15,6 +16,8 @@ namespace P7_Triggers_JDPC.Vistas
         public Categoria()
         {
             InitializeComponent();
+            BindingContext = new VMcatetgoria(Navigation);
+
         }
     }
 }

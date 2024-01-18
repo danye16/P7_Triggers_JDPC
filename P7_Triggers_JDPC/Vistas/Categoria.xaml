@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="P7_Triggers_JDPC.Vistas.Categoria">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+             x:Class="P7_Triggers_JDPC.Vistas.Categoria"
+             xmlns:disparador="clr-namespace:P7_Triggers_JDPC.Triggers.Tcategoria">
+    <Grid RowDefinitions="=auto,*" BackgroundColor="White">
+        
+    
+    <Image Grid.Row="1" VerticalOptions="CenterAndExpand" HeightRequest="250"
+           Source="{Binding Imagen}">
+        <Image.Triggers>
+            <MultiTrigger TargetType="Image">
+                <MultiTrigger.Conditions>
+                    <BindingCondition Binding="{Binding ActivadorAnimacionImg}" Value="True"/>
+                </MultiTrigger.Conditions>
+                <MultiTrigger.EnterActions>
+                    <disparador:Timagen activation="True"/>
+                </MultiTrigger.EnterActions>
+                <MultiTrigger.ExitActions>
+                    <disparador:Timagen activation="False"/>
+                </MultiTrigger.ExitActions>
+            </MultiTrigger>
+        </Image.Triggers>
+    </Image>
+    </Grid>
 </ContentPage>
