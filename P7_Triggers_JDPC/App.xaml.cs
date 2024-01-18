@@ -1,4 +1,6 @@
-﻿using System;
+﻿using P7_Triggers_JDPC.VistaModelo;
+using P7_Triggers_JDPC.Vistas;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +12,7 @@ namespace P7_Triggers_JDPC
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new PaginaCategoria();
         }
 
         protected override void OnStart()

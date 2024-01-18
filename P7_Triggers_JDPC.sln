@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7_Triggers_JDPC.Android", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7_Triggers_JDPC.iOS", "P7_Triggers_JDPC.iOS\P7_Triggers_JDPC.iOS.csproj", "{AF172BB1-6104-4061-A47F-E95C8CC2862D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P7_Triggers_JDPC", "P7_Triggers_JDPC\P7_Triggers_JDPC.csproj", "{B09E97A4-5605-46DC-B971-EFCD724A6B3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P7_Triggers_JDPC", "P7_Triggers_JDPC\P7_Triggers_JDPC.csproj", "{B09E97A4-5605-46DC-B971-EFCD724A6B3D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

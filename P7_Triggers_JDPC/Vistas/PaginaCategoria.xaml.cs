@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using P7_Triggers_JDPC.VistaModelo;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,7 @@ namespace P7_Triggers_JDPC.Vistas
         public PaginaCategoria()
         {
             InitializeComponent();
+            BindingContext = new VMcatetgoria(Navigation);
         }
     }
 }
