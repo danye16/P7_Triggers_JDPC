@@ -12,7 +12,7 @@ namespace P7_Triggers_JDPC
         {
             InitializeComponent();
 
-            MainPage = new PaginaCategoria();
+            MainPage = new Categoria();
         }
 
         protected override void OnStart()

@@ -16,7 +16,7 @@ namespace P7_Triggers_JDPC.Vistas
         public Categoria()
         {
             InitializeComponent();
-            BindingContext = new VMcatetgoria(Navigation);
+            BindingContext = new VMcategoria(Navigation);
 
         }
     }

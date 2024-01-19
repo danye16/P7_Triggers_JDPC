@@ -10,7 +10,8 @@ namespace P7_Triggers_JDPC.Datos
     {
         public static ObservableCollection<Mcategorias> MostrarCategorias()
         {
-            return new ObservableCollection<Mcategorias>() {
+            return new ObservableCollection<Mcategorias>()
+            {
             new Mcategorias()
             {
                 descripcion ="Cena",
@@ -42,7 +43,7 @@ namespace P7_Triggers_JDPC.Datos
                 imagen="https://i.ibb.co/s62Mzqx/flores.png",
                 backgroundColor="#EAEDF6",
                 textColor="#000000"
-            },
+            }
             };
         }
     }
